@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "yiisoft/yii2": ">=2.0.46",
+    "yiisoft/yii2": "^2.0",
     "yiisoft/yii2-httpclient": "*"
   },
   "require-dev": {
@@ -36,5 +36,10 @@
       "type": "composer",
       "url": "https://asset-packagist.org"
     }
-  ]
+  ],
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
 }
