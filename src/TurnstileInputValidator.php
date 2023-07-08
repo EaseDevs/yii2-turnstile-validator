@@ -62,6 +62,10 @@ class TurnstileInputValidator extends Validator
      */
     protected function validateValue($value)
     {
+        if (Yii::$app->request->isAjax) {
+            return null;
+        }
+
         if ($this->isValid === null) {
             if (!$value) {
                 $this->isValid = false;
