@@ -33,7 +33,7 @@ class TurnstileInputValidator extends Validator
         $secret = null,
         $siteVerifyUrl = null,
         Client $httpClient = null,
-        $config
+        $config = []
     )
     {
         if ($secret && !$this->secret) {
