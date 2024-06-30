@@ -19,7 +19,7 @@
     "yiisoft/yii2-httpclient": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^11.2"
   },
   "autoload": {
     "psr-4": {
